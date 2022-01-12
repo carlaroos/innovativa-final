@@ -1,0 +1,134 @@
+.card-container1 {
+  background-color: white;
+  min-width: 350px;
+  max-width: 600px;
+  width: 650px;
+  height: 450px;
+  border-radius: 14px;
+  border: solid #cddbe9 2px;
+  box-shadow: 0px 10px 30px darkgray;
+  margin-left: 50px;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+header {
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: center;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+
+  /*här är texten på det personliga kortet*/
+  float: left;
+}
+
+.pic1 {
+  border-radius: 10px;
+  margin-top: 25px;
+  padding-left: 20px;
+}
+
+button {
+  background-color: crimson;
+}
+
+.statusseated1 {
+  margin-top: -20px;
+  float: left;
+  margin-left: 22px;
+  font-size: 14px;
+  font-style: bold;
+  color: #29bb47;
+  background-color: #d2fcd9;
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px;
+  border: solid #29bb47 2px;
+
+  width: 90px;
+
+  text-align: center;
+}
+
+.statusnotseated1 {
+  margin-top: -20px;
+  float: left;
+  margin-left: 22px;
+  font-size: 14px;
+  font-style: bold;
+  color: #a01d1d;
+  background-color: rgb(249, 136, 136);
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px;
+  border: solid #a01d1d 2px;
+
+  width: 90px;
+
+  text-align: center;
+}
+
+.pic2 img {
+  background-color: black;
+  height: 170px;
+  width: 170px;
+
+  border-radius: 10px;
+}
+
+.pic2 {
+  background-color: rgb(255, 1, 247);
+}
+.bold-text1 {
+  font-weight: bold;
+  font-size: 1.1rem;
+  text-align: left;
+  padding: 10px 20px 0px 20px;
+}
+
+.normal-text1 {
+  font-weight: normal;
+  font-size: 0.95rem;
+  color: hsl(0, 0%, 50%);
+  text-align: left;
+  padding-bottom: 10px;
+}
+
+/* SOCIAL STATS */
+.smaller-text1 {
+  font-weight: bold;
+  font-size: 18px;
+  color: hsl(0, 0%, 50%);
+  text-align: left;
+  letter-spacing: 1px;
+  padding-bottom: 20px;
+  line-height: 5px;
+  margin-left: 20px;
+}
+
+.social-container1 {
+  display: flex;
+  border-top: solid rgb(206, 206, 206) 1px;
+  text-align: center;
+}
+
+.followers1 {
+  flex: 1;
+}
+
+.likes1 {
+  flex: 1;
+}
+
+.photos1 {
+  flex: 1;
+}
+
+.progressbar {
+  width: 100px;
+  margin-left: 212px;
+}

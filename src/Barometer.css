@@ -1,0 +1,37 @@
+.cards {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  margin-right: 20px;
+}
+
+.cards {
+  margin: 10px;
+}
+
+.table {
+  background-color: white;
+  width: 1050px;
+  height: 300px;
+
+  z-index: 0;
+  margin-bottom: -400px;
+  margin-top: 100px;
+  border: solid #cddbe9 2px;
+
+  border-radius: 14px;
+  box-shadow: 0px 10px 30px darkgray;
+  margin-left: 20px;
+}
+
+.outer-container {
+  position: absolute;
+  width: 99%;
+}
+
+.left-container {
+  width: 10%;
+
+  float: left;
+  margin-left: 12%;
+}

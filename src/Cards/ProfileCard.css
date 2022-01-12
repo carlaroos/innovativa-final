@@ -1,0 +1,87 @@
+.card-container {
+  background-color: white;
+  min-width: 250px;
+  max-width: 300px;
+  border: solid #cddbe9 2px;
+  height: 160px;
+  border-radius: 14px;
+  box-shadow: 0px 10px 30px darkgray;
+}
+
+header {
+  background-image: url("https://i.pinimg.com/originals/f9/11/d3/f911d38579709636499618b6b3d9b6f6.jpg");
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: center;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+}
+
+img {
+  float: left;
+  margin: 10px;
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  border: solid white 4px;
+  border-radius: 10%;
+}
+
+.status {
+  margin-top: 95px;
+  float: left;
+  margin-left: -95px;
+  font-size: 10px;
+  font-style: bold;
+  color: #29bb47;
+  background-color: #d2fcd9;
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 20px;
+  border: solid #29bb47 1px;
+}
+
+.bold-text {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: left;
+  padding: 10px 3px 0px 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.normal-text {
+  font-weight: normal;
+  font-size: 14px;
+  color: hsl(0, 0%, 50%);
+  text-align: left;
+  padding-bottom: 10px;
+}
+
+/* SOCIAL STATS */
+.smaller-text {
+  font-weight: normal;
+  font-size: 14px;
+  color: hsl(0, 0%, 50%);
+  text-align: left;
+  letter-spacing: 1px;
+  padding-bottom: 20px;
+  line-height: 5px;
+  margin-top: 4px;
+}
+
+.info-container {
+  display: flex;
+  border-top: solid rgb(206, 206, 206) 1px;
+  text-align: center;
+}
+
+.role {
+  flex: 1;
+}
+
+.mood {
+  flex: 1;
+}

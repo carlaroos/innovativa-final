@@ -1,0 +1,9 @@
+* {
+    margin: 20px;
+}
+
+.table {
+    height: 30px;
+    width: 400px;
+    background-color: crimson;
+}

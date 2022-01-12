@@ -1,0 +1,99 @@
+.btninp {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  margin-right: 20px;
+}
+
+Form {
+  margin-top: 80px;
+}
+
+.inputer {
+  background-color: white;
+  padding: 8px;
+  border-radius: 5px;
+
+  border: solid #b6b6b6 2px;
+  font-weight: 500;
+  color: rgb(75, 75, 75);
+  height: 18px;
+}
+
+.todoheader {
+  text-align: left;
+  margin-left: 20px;
+  margin-bottom: -8px;
+  font-size: 18px;
+}
+
+.primary-mb-3 {
+  background-color: #a9d8fa;
+  color: #1c6a98;
+  padding: 10px;
+  border-radius: 8px;
+
+  border: none;
+  width: 130px;
+  padding-right: 30px;
+  padding-left: 30px;
+
+  margin-left: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  border: solid rgb(0, 111, 208) 2px;
+
+  box-shadow: 0px 5px 15px rgb(202, 229, 252);
+}
+
+.outline-success {
+  background-color: #a9fac0;
+  color: #1c982f;
+  padding: 6px;
+  border-radius: 8px;
+
+  border: none;
+
+  width: 35px;
+
+  margin-left: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  border: solid rgb(0, 208, 83) 2px;
+
+  box-shadow: 0px 5px 15px rgb(202, 229, 252);
+  margin-left: 30px;
+}
+
+.outline-danger {
+  background-color: #faa9a9;
+  color: #981c1c;
+  padding: 6px;
+  border-radius: 8px;
+
+  border: none;
+
+  width: 35px;
+
+  margin-left: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  border: solid rgb(208, 0, 0) 2px;
+
+  box-shadow: 0px 5px 15px rgb(202, 229, 252);
+
+  margin-top: 15px;
+}
+
+.contents {
+  display: flex;
+  flex-direction: row;
+}
+
+.contents button {
+}
+
+.contents span {
+  margin-left: 20px;
+  margin-top: 20px;
+}

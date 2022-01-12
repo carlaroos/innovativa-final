@@ -1,0 +1,65 @@
+
+
+.dots {
+  background-color: aqua;
+}
+.dot1 {
+  height: 40px;
+  width: 40px;
+  background-color: #29BB47;
+  border-radius: 50%;
+  display: inline-block;
+  border-width: 10px;
+  
+  border: 10px solid #179830;
+  border-width: 10%;
+  
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+  margin-top: 5%;
+}
+
+.dot2 {
+  height: 40px;
+  width: 40px;
+  background-color: #E8E13D;
+  border-radius: 50%;
+  display: inline-block;
+  
+  
+
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-top: 2%;
+
+  border: 10px solid #ebcc19;
+  border-width: 10%;
+  
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.dot3 {
+  height: 40px;
+  width: 40px;
+  background-color: #2986BB;
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: 9%;
+
+  border: 10px solid #195c83;
+  border-width: 10%;
+  
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+
+
+.dott1, .dott2, .dott3{
+  float:left;
+  align-content: right;
+  font-weight: bold;
+  margin-right: 30px;
+  
+ 
+  
+}
